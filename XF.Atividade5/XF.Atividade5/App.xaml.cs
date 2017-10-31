@@ -13,7 +13,7 @@ namespace XF.Atividade5
         {
             InitializeComponent();
 
-            MainPage = new XF.Atividade5.MainPage();
+            MainPage = new NavigationPage(new XF.Atividade5.MainPage());
         }
 
         protected override void OnStart()

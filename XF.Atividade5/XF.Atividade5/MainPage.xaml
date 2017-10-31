@@ -4,8 +4,13 @@
              xmlns:local="clr-namespace:XF.Atividade5"
              x:Class="XF.Atividade5.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label FontSize="20" Text="Agenda"></Label>
+                <Button x:Name="btnAgenda" Text="Abri Agenda" Clicked="btnAgenda_Clicked"></Button>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
 
 </ContentPage>
